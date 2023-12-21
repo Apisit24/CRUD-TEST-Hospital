@@ -67,7 +67,7 @@ const AddCustomerForm: React.FC<AddCustomerFormProps> = ({ onAdd }) => {
           onClick={handleHidden}
           type="submit"
         >
-          Add Customer
+          Add Patient
         </button>
       </h2>
       <form onSubmit={handleSubmit} hidden={box}>

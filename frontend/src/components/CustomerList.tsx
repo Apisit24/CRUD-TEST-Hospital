@@ -68,7 +68,7 @@ const CustomerList: React.FC = () => {
 
   return (
     <div className="px-5">
-      <h2 className="text-4xl ">Customer List</h2>
+      <h2 className="text-4xl ">Patient List</h2>
       <div className="flex justify-center py-4 gap-5 flex-wrap ">
         {customers.map((customer) => (
           <div className="text-wrap">
@@ -123,7 +123,7 @@ const CustomerList: React.FC = () => {
             </button>
           </div>
           <div className="modal-content justify-center w-auto">
-            <h2 className="text-white">Edit Customer</h2>
+            <h2 className="text-white">Edit Patient</h2>
 
             <form
               onSubmit={(e) => {
