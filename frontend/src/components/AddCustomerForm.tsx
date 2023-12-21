@@ -47,13 +47,13 @@ const AddCustomerForm: React.FC<AddCustomerFormProps> = ({ onAdd }) => {
           drugAllergy,
         }
       );
-
       onAdd(response.data);
       setName("");
       setLname("");
       setAge("");
       setCongenitalDisease("");
       setDrugAllergy("");
+      window.location.reload(); 
     } catch (error) {
       console.error("Error adding customer:", error);
     }
